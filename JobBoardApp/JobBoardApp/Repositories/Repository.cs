@@ -31,17 +31,17 @@ namespace JobBoardApp.Repositories
         {
             if (entity == null) throw new ArgumentNullException("entity");
 
-            entities.Add(entity);
+        
             context.Add(entity);
             context.SaveChanges();
-           // context.Database.CommitTransaction();
+          
         }
         public void Update(T entity)
         {
             if (entity == null) throw new ArgumentNullException("entity");
             try
             {
-                //entities.Update(entity);
+               
                 context.Entry(entity).State = EntityState.Modified;
                 context.SaveChanges();
 
@@ -61,6 +61,19 @@ namespace JobBoardApp.Repositories
             T entity = entities.SingleOrDefault(s => s.Id == id);
             entities.Remove(entity);
             context.SaveChanges();
+
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
         }
+
+      
+
     }
 }

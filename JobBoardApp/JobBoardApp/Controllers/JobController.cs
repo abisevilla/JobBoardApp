@@ -17,23 +17,6 @@ namespace JobBoardApp.Models
         { this.jobRepository = jobRepository; }
 
         [HttpGet]
-        [Route("GetAllJobs")]
-        public IEnumerable<JobEntity> GetAllJobs() => jobRepository.GetAll();
-
-        [HttpGet]
-        [Route("{JobId}")]
-        public JobEntity GetJobById(Guid bookId) => jobRepository.GetById(bookId);
-
-        [HttpPost]
-        [Route("")]
-        [AllowAnonymous]
-        public void AddJob([FromBody] JobEntity job) => jobRepository.Insert(job);
-
-        [HttpDelete]
-        [Route("{JobId}")]
-        [AllowAnonymous]
-        public void DeleteJob(Guid jobId) => jobRepository.Delete(jobId);
-        [HttpGet]
         public IActionResult Index()
         {
             var joblist = jobRepository.GetAll();
@@ -62,10 +45,8 @@ namespace JobBoardApp.Models
             catch (Exception ex)
             {
 
-                throw;
-            }
-
-          
+                throw ex;
+            }         
 
         }
 
@@ -94,16 +75,57 @@ namespace JobBoardApp.Models
 
             }
 
-            catch (Exception e)
+            catch (Exception ex)
 
             {
 
-                return View();
+                throw ex;
 
 
             }
 
 
         }
+
+        [HttpGet]
+        public ActionResult Delete(Guid id)
+
+        {
+            try
+            {
+                var job = jobRepository.GetById(id);
+                return View(job);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+            
+
+        }
+
+        [HttpPost]
+        public ActionResult DeleteJob(Guid id)
+
+        {
+            try
+            {
+
+                jobRepository.Delete(id);
+                var joblist = jobRepository.GetAll();
+                return View("Index", joblist);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+
+        }
+
+
     }
 }

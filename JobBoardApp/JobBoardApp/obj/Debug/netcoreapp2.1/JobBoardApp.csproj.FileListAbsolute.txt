@@ -8,7 +8,6 @@ C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\bin\Debug\netcor
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\bin\Debug\netcoreapp2.1\JobBoardApp.pdb
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\bin\Debug\netcoreapp2.1\JobBoardApp.Views.dll
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\bin\Debug\netcoreapp2.1\JobBoardApp.Views.pdb
-C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\JobBoardApp.csprojAssemblyReference.cache
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\JobBoardApp.csproj.CoreCompileInputs.cache
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\JobBoardApp.RazorAssemblyInfo.cache
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\JobBoardApp.RazorAssemblyInfo.cs
@@ -21,6 +20,10 @@ C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcor
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Job\Delete.cshtml.g.cs
+C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Job\Edit.cshtml.g.cs
+C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Job\Index.cshtml.g.cs
+C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Job\Insert.cshtml.g.cs
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -34,7 +37,3 @@ C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcor
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\JobBoardApp.pdb
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\JobBoardApp.genruntimeconfig.cache
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\JobBoardApp.csproj.CopyComplete
-C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Job\Index.cshtml.g.cs
-C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Job\Edit.cshtml.g.cs
-C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Job\Insert.cshtml.g.cs
-C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Job\Delete.cshtml.g.cs

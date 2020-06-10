@@ -78,13 +78,10 @@ namespace JobBoardApp.Models
             catch (Exception ex)
 
             {
-
                 throw ex;
 
 
             }
-
-
         }
 
         [HttpGet]
@@ -100,9 +97,7 @@ namespace JobBoardApp.Models
             {
 
                 throw ex;
-            }
-
-            
+            }           
 
         }
 

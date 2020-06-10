@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace JobBoardApp.Models
 {
-    public class JobController
+    public class JobController : Controller
     {
         private IRepository<JobEntity> jobRepository;
         public JobController(IRepository<JobEntity> jobRepository)
@@ -31,5 +31,11 @@ namespace JobBoardApp.Models
         [Route("{JobId}")]
         [AllowAnonymous]
         public void DeleteJob(Guid jobId) => jobRepository.Delete(jobId);
+
+        public IActionResult Index()
+        {
+            var joblist = jobRepository.GetAll();
+            return View(joblist);
+        }
     }
 }

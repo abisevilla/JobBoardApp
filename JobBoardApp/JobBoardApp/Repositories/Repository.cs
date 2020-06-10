@@ -36,7 +36,19 @@ namespace JobBoardApp.Repositories
         public void Update(T entity)
         {
             if (entity == null) throw new ArgumentNullException("entity");
-            context.SaveChanges();
+            try
+            {
+                entities.Update(entity);
+                context.SaveChanges();
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+            
+           
         }
         public void Delete(Guid id)
         {

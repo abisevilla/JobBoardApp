@@ -1,6 +1,8 @@
 ﻿using JobBoardApp.Repositories;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,6 +38,46 @@ namespace JobBoardApp.Models
         {
             var joblist = jobRepository.GetAll();
             return View(joblist);
+        }
+
+      
+
+
+
+        [HttpGet]
+        public ActionResult Edit(Guid id)
+
+        {
+            var job = jobRepository.GetById(id);
+            return View(job);
+
+        }
+
+        [HttpPost]
+        public ActionResult Edit( FormCollectionModelBinder form, JobEntity objpost)
+
+        {
+            try
+
+            {
+                jobRepository.Update(objpost);
+
+
+
+                return RedirectToAction("Index");
+
+            }
+
+            catch (Exception e)
+
+            {
+
+                return View();
+
+
+            }
+
+
         }
     }
 }

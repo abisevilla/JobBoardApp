@@ -18,6 +18,22 @@ namespace JobBoardApp.Models
 
 
                 context.Jobs.AddRange(
+                     new JobEntity
+                     {
+                         JobTitle = "Frontend Developer",
+                         CreatedAt = DateTime.Now,
+                         Job = "Part-time",
+                         Description = "Design a framework for creating user apps that grows with the needs of the company Monitor website performance,  watch for traffic drops related to site usability problems and rectify the issues Review app and feature coding and plan future website upgrades with the development team" 
+                     }, 
+                       new JobEntity
+                       {
+                           JobTitle = "Full Stack Developer",
+                           CreatedAt = DateTime.Now,
+                           Job = "Full-time",
+                           Description = "Code in Node, Express, and React while choosing modern libraries to develop in Collaborate with your friendly,  enthusiastic,  and senior teammates Create clean, modern, testable, well - documented code each sprint Use GitHub, ZenHub and burndown charts to manage the development Confidently communicate daily with clients to understand and deliver technical requirements"
+                       },
+
+
                     new JobEntity
                     {
                         JobTitle = "Electrical Engineer",

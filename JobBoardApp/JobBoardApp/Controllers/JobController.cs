@@ -33,15 +33,41 @@ namespace JobBoardApp.Models
         [Route("{JobId}")]
         [AllowAnonymous]
         public void DeleteJob(Guid jobId) => jobRepository.Delete(jobId);
-
+        [HttpGet]
         public IActionResult Index()
         {
             var joblist = jobRepository.GetAll();
             return View(joblist);
         }
 
-      
 
+        [HttpGet]
+        public ActionResult Insert()
+
+        {
+            
+            return View();
+
+        }
+        [HttpPost]
+        public ActionResult Insert(FormCollectionModelBinder form, JobEntity objpost)
+
+        {
+            try
+            {
+                jobRepository.Insert(objpost);
+
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+          
+
+        }
 
 
         [HttpGet]

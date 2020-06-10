@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace JobBoardApp.Repositories
 {
@@ -31,14 +32,17 @@ namespace JobBoardApp.Repositories
             if (entity == null) throw new ArgumentNullException("entity");
 
             entities.Add(entity);
+            context.Add(entity);
             context.SaveChanges();
+           // context.Database.CommitTransaction();
         }
         public void Update(T entity)
         {
             if (entity == null) throw new ArgumentNullException("entity");
             try
             {
-                entities.Update(entity);
+                //entities.Update(entity);
+                context.Entry(entity).State = EntityState.Modified;
                 context.SaveChanges();
 
             }

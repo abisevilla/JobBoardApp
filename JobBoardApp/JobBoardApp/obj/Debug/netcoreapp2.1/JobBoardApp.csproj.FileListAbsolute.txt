@@ -36,3 +36,4 @@ C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcor
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\JobBoardApp.csproj.CopyComplete
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Job\Index.cshtml.g.cs
 C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Job\Edit.cshtml.g.cs
+C:\Users\casa\Documents\Tecoloco\JobApp\JobBoardApp\JobBoardApp\obj\Debug\netcoreapp2.1\Razor\Views\Job\Insert.cshtml.g.cs

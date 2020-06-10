@@ -68,7 +68,7 @@ using JobBoardApp.Models;
             WriteLiteral("\r\n<h2>Jobs offers</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(175, 118, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3e2f2a0b6a2c46a780817985bf4b52d3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d9c642f7aee34841bb217e76a71f73f1", async() => {
                 BeginContext(226, 63, true);
                 WriteLiteral("<span class=\"glyphicon glyphicon-plus-sign\"></span> Create new ");
                 EndContext();
@@ -199,7 +199,7 @@ using JobBoardApp.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(1567, 112, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c97f9adb9e34de9916b58cda02a68f3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dc7b76026dbe40c18e3cf7738e487b70", async() => {
                 BeginContext(1627, 48, true);
                 WriteLiteral("<span class=\"glyphicon glyphicon-pencil\"></span>");
                 EndContext();
@@ -235,7 +235,7 @@ using JobBoardApp.Models;
             WriteLiteral(" \r\n               \r\n                ");
             EndContext();
             BeginContext(1715, 113, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "adcc8dd5243a4cf890c367e6acf755c2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc61a58d95214902b64bb6e89a4f4f2a", async() => {
                 BeginContext(1777, 47, true);
                 WriteLiteral("<span class=\"glyphicon glyphicon-trash\"></span>");
                 EndContext();
